@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import profilePicture from '../assets/images/bisoyefemi.jpg';
 
 class MyProfile extends Component {
     state = {  }
@@ -17,7 +18,7 @@ class MyProfile extends Component {
         <div className="container">
             <div className="row">
                 <div className="col-md-2">
-                    <img src="images/bisoyefemi.JPG" alt="" className="img-thumbnail" style={{ border:"transparent", height: "150px", width: "150px" }}/>
+                    <img src = {profilePicture} alt="image" className="img-thumbnail" style={{ border:"transparent", height: "150px", width: "150px" }}/>
                 </div>
                 <div className="col-md-8">
                     <h2>About Me</h2>
@@ -29,10 +30,7 @@ class MyProfile extends Component {
                         </p>
                     </div>
                 </div>
-            </div>
-        
-            
-                
+            </div>       
 
             <div className="container">
                 <div className="row">
